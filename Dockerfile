@@ -9,7 +9,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci
+RUN npm install --no-audit --legacy-peer-deps
 
 # Copy all files
 COPY . .
