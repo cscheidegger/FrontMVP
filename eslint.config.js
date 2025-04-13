@@ -7,6 +7,7 @@ import tseslint from "typescript-eslint";
 import pluginImport from "eslint-plugin-import";
 import pluginJsxA11y from "eslint-plugin-jsx-a11y";
 import pluginReact from "eslint-plugin-react";
+import airbnbTypescript from "eslint-config-airbnb-typescript";
 
 export default tseslint.config(
   { ignores: ["dist"] },
